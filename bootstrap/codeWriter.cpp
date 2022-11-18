@@ -502,7 +502,7 @@ using namespace std;
                 8. goto f
                 9. (return-address)
 
-            This is probably the most seemingly complex part of the entire VM implementation, but it's not as complicated as one (myself included) would think. Just follow the directions.
+            This is (seemingly) the most complex part of the entire VM implementation, but it's not as complicated as one (myself included) would think. Just follow the directions.
             The return-address is determined by the label in step 9. When pushing LCL, ARG, THIS, and THAT onto the stack, you're simply pushing the values of the segment pointers, 
             not the values that they point to.
         */
